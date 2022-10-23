@@ -21,11 +21,17 @@ You open [the site](https://www.jsbi.org/activity/nintei/sankou_mondai_kako/) wi
 
 # Learning
 
-## `Shell Grammar 101`
+## Shell Grammar 101
 
-## `Unix commands`
+You will learn about essential shell grammars.
 
-You will learn about the following 8 commands you need today's hands-on.
+- commad
+- pipeline `|`
+- redirect `>`
+
+## Unix commands
+
+You will learn about the following nine commands that you need today's hands-on.
 
 - `ls`
 - `cat`
@@ -37,7 +43,7 @@ You will learn about the following 8 commands you need today's hands-on.
 - `sed`
 - `xargs`
 
-## `HTML`
+## HTML
 
 You will learn about the basic of HTML structure.
 

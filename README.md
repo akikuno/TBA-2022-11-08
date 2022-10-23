@@ -19,7 +19,28 @@ You open [the site](https://www.jsbi.org/activity/nintei/sankou_mondai_kako/) wi
 
 </samp>
 
-# Materials
+# Learning
 
+## `Shell Grammar 101`
 
+## `Unix commands`
 
+You will learn about the following 8 commands you need today's hands-on.
+
+- `ls`
+- `cat`
+- `head`
+- `wget` or `curl`
+- `tr`
+- `grep`
+- `cut`
+- `sed`
+- `xargs`
+
+## `HTML`
+
+You will learn about the basic of HTML structure.
+
+# Hands-on
+
+https://colab.research.google.com/drive/1MXc-1M90WgUC6qrTKnB9ykdCCgfZglEL?usp=sharing

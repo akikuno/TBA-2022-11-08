@@ -1,4 +1,4 @@
-# Basics
+# Shell Grammar 101
 
 ## Command
 
@@ -44,4 +44,5 @@ echo TBA > TBA.txt
 
 - https://zsh.sourceforge.io/Doc/Release/Shell-Grammar.html
 - https://www.tutorialspoint.com/unix/unix-io-redirections.htm
+
 (2022-10-23 accessed)

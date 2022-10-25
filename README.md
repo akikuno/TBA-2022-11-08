@@ -1,4 +1,4 @@
-# TBA-20221108
+# TBA-2022-11-08
 
 These are Hands-on materials for November 8, 2022, Tsukuba Bioinformatics Assembly (TBA).
 

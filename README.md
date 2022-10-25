@@ -1,6 +1,6 @@
-# TBA-2022-11-08
+# Handy web scraping with Shell Script🍰
 
-These are Hands-on materials for November 8, 2022, Tsukuba Bioinformatics Assembly (TBA).
+This repository includes hands-on materials for November 8, 2022, Tsukuba Bioinformatics Assembly (TBA).
 
 # Aim
 

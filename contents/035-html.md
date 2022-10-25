@@ -35,13 +35,12 @@ In contrast, the following commands return different outputs.
 
 ```bash
 grep 'TBA' data/tba1.html
-# <p> Hello! Tsukuba Bioinfo Assembly! </p>
+# <p> This is TBA </p> <p> This is Tsukuba Bioinfo Assembly </p>
 ```
 
 ```bash
 grep 'TBA' data/tba2.html
-# Hello!
-# Tsukuba Bioinfo Assembly!
+#  This is TBA
 ```
 
 **To parse HTML, transform `>` to `\n`.**  

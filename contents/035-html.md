@@ -12,30 +12,48 @@ HTML elements consist of a left angle bracket (<), followed by name of the tag a
 
 Since **one line represents one content in (almost all) Unix commands**, you need to convert a format to parse HTML.
 
-In a nutshell, the following two lines are the exactly same in HTML,
+The following two HTMLs are the exactly same.
 
 ```html
 # data/tba1.html
-<p> Hello! Tsukuba Bioinfo Assembly! </p>
+<p> This is TBA </p> <p> This is Tsukuba Bioinfo Assembly </p>
 ```
 
 ```html
 # data/tba2.html
 <p>
-Hello!
-Tsukuba Bioinfo Assembly!
+    This is TBA
 </p>
+
+<p>
+    This is Tsukuba Bioinfo Assembry
+</p>
+
 ```
 
-On the other hands, the following commands return different outputs.
+In contrast, the following commands return different outputs.
 
 ```bash
-grep 'e' data/tba1.html
+grep 'TBA' data/tba1.html
 # <p> Hello! Tsukuba Bioinfo Assembly! </p>
 ```
 
 ```bash
-grep 'e' data/tba2.html
+grep 'TBA' data/tba2.html
 # Hello!
 # Tsukuba Bioinfo Assembly!
 ```
+
+**To parse HTML, transform `>` to `\n`.**  
+`\n` means a new line.
+
+```bash
+cat data/tba1.html | tr ">" "\n" | grep 'TBA'
+#  This is TBA </p
+```
+
+```bash
+cat data/tba2.html | tr ">" "\n" | grep 'TBA'
+#  This is TBA
+```
+

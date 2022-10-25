@@ -1,6 +1,6 @@
 # TBA-20221108
 
-Hands-on materials for the November 8, 2022 Tsukuba Bioinformatics Assembly (TBA).
+These are Hands-on materials for November 8, 2022, Tsukuba Bioinformatics Assembly (TBA).
 
 # Aim
 
@@ -13,25 +13,25 @@ One day, you made up your mind to take the examination of The Japanese Society f
 
 You open [the site](https://www.jsbi.org/activity/nintei/sankou_mondai_kako/) with great enthusiasm but notice that there are 23 links to PDF files of previous years' exams.
 
-***Should I click and download PDFs of each exam!? I really can't bare it.***
+***Should I click and download PDFs of each exam!? I really can't bear it!!😡***
 
-**Let's automate downloading.**
+**Let's automate downloading⭐**
 
 </samp>
 
 # Learning
 
-## Shell Grammar 101
+## [Shell Grammar 101](https://github.com/akikuno/TBA-20221108/blob/main/contents/015-shellscript.md)
 
-You will learn about essential shell grammars.
+You will learn about essential shell grammar.
 
-- commad
+- command
 - pipeline `|`
 - redirect `>`
 
-## Unix commands
+## [Unix commands (⚠ under construction ⚠)](https://github.com/akikuno/TBA-20221108/blob/main/contents/025-unix-commands.md)
 
-You will learn about the following nine commands that you need today's hands-on.
+You will learn about the following nine commands you need today's hands-on.
 
 - `ls`
 - `cat`
@@ -43,9 +43,9 @@ You will learn about the following nine commands that you need today's hands-on.
 - `sed`
 - `xargs`
 
-## HTML
+## [HTML](https://github.com/akikuno/TBA-20221108/blob/main/contents/035-html.md)
 
-You will learn about the basic of HTML structure.
+You will learn about the basics of HTML structure.
 
 # Hands-on
 

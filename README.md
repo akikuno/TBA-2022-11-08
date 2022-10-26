@@ -19,9 +19,9 @@ You open [the site](https://www.jsbi.org/activity/nintei/sankou_mondai_kako/) wi
 
 </samp>
 
-# Learning
+# Quick guide
 
-## [Shell Grammar 101](https://github.com/akikuno/TBA-20221108/blob/main/contents/015-shellscript.md)
+## [Shell 101](https://github.com/akikuno/TBA-20221108/blob/main/contents/015-shellscript.md)
 
 You will learn about essential shell grammar.
 

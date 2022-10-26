@@ -1,6 +1,10 @@
-# Shell Grammar 101
+# Shell 101
 
-## Command
+## What is Shell?
+
+Shell is an environment in which we can run our **commands**.
+
+## Grammar
 
 The first word is the **command** to be executed, and the remaining words are arguments to the command.
 
@@ -11,7 +15,7 @@ echo TBA
 # -> TBA
 ```
 
-is a simple command with arguments.
+is a simple command (`echo`) with an argument (`TBA`).
 
 ## Pipeline `|`
 
@@ -32,7 +36,7 @@ The output from a command can be easily diverted to a file.
 
 If the notation `>` file is appended to any command that normally writes its output to standard output, the output of that command will be written to file instead of your terminal.
 
-This capability is known as **redirection**.
+This is known as **redirection**.
 
 Check the following command which redirects the output of the command in the TBA.txt.
 

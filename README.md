@@ -1,10 +1,8 @@
 # Handy web scraping with Shell Script🍰
 
-This repository includes hands-on materials for November 8, 2022, Tsukuba Bioinformatics Assembly (TBA).
-
 # Aim
 
-**Learn basic Unix commands**
+**Learn basic Unix commands through web scraping**
 
 # Story
 <samp>

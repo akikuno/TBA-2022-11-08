@@ -30,7 +30,7 @@ cat [file...]
 
 ## `head`
 
-Commands to print the top N number of data of the given input.
+Commands to print the top N number (default is top 10) of data of the given input.
 
 ```bash
 head [file]
@@ -65,15 +65,23 @@ echo "AAACCC" | tr "ACGT" "TGCA" | rev
 
 Command for searching text and strings
 
+```bash
+# Search "S"
+printf "Suzuki\nSato\nYamada\n" | grep "S"
+
+# Search "a"
+printf "Suzuki\nSato\nYamada\n" | grep "a"
+```
+
 ## `cut`
 
 Command for cutting out the sections from each line of files
 
 ```bash
 echo "chr1,100,1000,tba" | cut -d, -f 1
-# chr1
+#=> chr1
 echo "chr1,100,1000,tba" | cut -d, -f 1-3
-# chr1,100,1000
+#=> chr1,100,1000
 ```
 
 ## `sed`
@@ -82,7 +90,7 @@ Command for substitution or for find and replace.
 
 ```bash
 echo "TBA" | sed "s/TBA/Tsukuba Bioinfo Assembly/"
-# Tsukuba Bioinfo Assembly
+#=> Tsukuba Bioinfo Assembly
 ```
 
 

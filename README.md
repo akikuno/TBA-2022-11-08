@@ -13,7 +13,7 @@ You open [the site](https://www.jsbi.org/activity/nintei/sankou_mondai_kako/) wi
 
 ***Should I click and download PDFs of each exam!? I really can't bear it!!😡***
 
-**Let's automate downloading⭐**
+**Automate the Boring Stuff with ~~Python~~ Shell🐚**
 
 </samp>
 
@@ -27,9 +27,9 @@ You will learn about essential shell grammar.
 - pipeline `|`
 - redirect `>`
 
-## [Unix commands (⚠ under construction ⚠)](https://github.com/akikuno/TBA-20221108/blob/main/contents/025-unix-commands.md)
+## [Unix commands](https://github.com/akikuno/TBA-20221108/blob/main/contents/025-unix-commands.md)
 
-You will learn about the following nine commands you need today's hands-on.
+You will learn the following commands you need today's hands-on.
 
 - `ls`
 - `cat`

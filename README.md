@@ -11,7 +11,7 @@ One day, you made up your mind to take the examination of The Japanese Society f
 
 You open [the site](https://www.jsbi.org/activity/nintei/sankou_mondai_kako/) with great enthusiasm but notice that there are 23 links to PDF files of previous years' exams.
 
-***Should I click and download PDFs of each exam!? I really can't bear it!!😡***
+***Should I click and download PDFs of each exam!? I can't bear it!!😡***
 
 **Automate the Boring Stuff with ~~Python~~ Shell🐚**
 

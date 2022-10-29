@@ -150,12 +150,16 @@ But this output includes unrelated characters such as "2019年度（平成31年�
   <a href="media/files/activity/nintei/sankou_mondai_kako/2019_kaisetsu_r.pdf"
 ```
 
-You can delete these characters one by one using `sed`, but let's focus on separaters.
+You can delete these characters one by one, but wait a minites.
 
-If you separate the text by `"`, you can extract only the links.
+let's focus on separaters.
 
-| 2019年度（平成31年度） <a href= | media/files/activity/nintei/sankou_mondai_kako/2019_mondai.pdf     |  |
-|   <a href=              | media/files/activity/nintei/sankou_mondai_kako/2019_kaisetsu_r.pdf |  |
+If you separate the text by `"`, you can extract only the links by selecting the Field 2.
+
+| Field 1                         | Field 2                                                            | Field 3 |
+| ------------------------------- | ------------------------------------------------------------------ | ------- |
+| 2019年度（平成31年度） <a href= | media/files/activity/nintei/sankou_mondai_kako/2019_mondai.pdf     |         |
+| <a href=                        | media/files/activity/nintei/sankou_mondai_kako/2019_kaisetsu_r.pdf |         |
 
 To separate the text, use `cut`✂️.
 
@@ -164,3 +168,4 @@ cat data/example.html | tr ">" "\n" | grep pdf | cut -d '"' -f 2
 # media/files/activity/nintei/sankou_mondai_kako/2019_mondai.pdf
 # media/files/activity/nintei/sankou_mondai_kako/2019_kaisetsu_r.pdf
 ```
+

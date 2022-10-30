@@ -88,11 +88,22 @@ echo "chr1,100,1000,tba" | cut -d, -f 1-3
 
 Command for substitution or for find and replace.
 
+For example, to replace 'TBA' to 'Tsukuba Bioinfo Assembly':
+
 ```bash
 echo "TBA" | sed "s/TBA/Tsukuba Bioinfo Assembly/"
 #=> Tsukuba Bioinfo Assembly
 ```
 
+Importantly, sed can use **regular expressions**.
+For example, `^` means the beggining of a word.
+
+So if you want to add a term to the beggining of a word, you can replace `^`.
+
+```bash
+echo "TBA" | sed "s/^/Hello /"
+#=> Hello TBA
+```
 
 ## `xargs`
 
@@ -101,8 +112,10 @@ Command for executing commands from standard input.
 ```bash
 find data/ -type f |
     xargs grep "Tsukuba Bioinfo Assembly"
+```
+The above command is equivalent to the following two commands:
 
-# The above command is equivalent to the following two commands:
+```bash
 grep data/tba1.html
 grep data/tba2.html
 ```

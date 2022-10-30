@@ -1,4 +1,4 @@
-# How to think a problem
+# How to think about a problem
 
 ## Set your goal⛳
 

@@ -17,7 +17,17 @@ You open [the site](https://www.jsbi.org/activity/nintei/sankou_mondai_kako/) wi
 
 </samp>
 
-# Quick guide
+# How to solve the problem
+
+Have a look at [strategy.md](https://github.com/akikuno/TBA-20221108/blob/main/contents/strategy.md)👀
+
+# Hands-on material
+
+https://colab.research.google.com/drive/1MXc-1M90WgUC6qrTKnB9ykdCCgfZglEL?usp=sharing
+
+# Learning resources
+
+The following contents are supplementary teaching materials.
 
 ## [Shell 101](https://github.com/akikuno/TBA-20221108/blob/main/contents/015-shellscript.md)
 
@@ -44,7 +54,3 @@ You will learn the following commands you need today's hands-on.
 ## [HTML](https://github.com/akikuno/TBA-20221108/blob/main/contents/035-html.md)
 
 You will learn about the basics of HTML structure.
-
-# Hands-on
-
-https://colab.research.google.com/drive/1MXc-1M90WgUC6qrTKnB9ykdCCgfZglEL?usp=sharing

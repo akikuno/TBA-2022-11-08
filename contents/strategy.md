@@ -8,7 +8,7 @@ For me, the goal is to summarize lists of all the URLs from [the site](https://w
 
 The input is the follwoing HTML.  
 
-<describe>
+<details>
 
 ### Input: HTML
 
@@ -63,11 +63,11 @@ The input is the follwoing HTML.
 
 (~~~Omitted 以下略~~~)
 ```
-</describe>
+</details>
 
 The output is a list of the URLs.
 
-<describe>
+<details>
 
 ### Output: URLs of the PDFs
 
@@ -98,7 +98,7 @@ https://www.jsbi.org/media/files/activity/nintei/sankou_mondai_kako/2008_H20_mon
 https://www.jsbi.org/media/files/activity/nintei/sankou_mondai_kako/2007_H19_mondai_kaitou.pdf
 ```
 
-</describe>
+</details>
 
 After getting the list, you can download all files using `for loop`, `while loop`, or `xargs`, whichever you want.
 

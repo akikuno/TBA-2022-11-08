@@ -109,7 +109,7 @@ We can divide the problem into these parts.
 - Find links to PDFs
 - Format the links
 
-## 1. Download HTML
+### 1. Download HTML
 
 You can use `wget` or `curl` to download HTML.
 
@@ -123,7 +123,7 @@ wget -O - https://www.jsbi.org/activity/nintei/sankou_mondai_kako/
 curl https://www.jsbi.org/activity/nintei/sankou_mondai_kako/
 ```
 
-## 2. Find links to PDFs
+### 2. Find links to PDFs
 
 First, you need to modify the HTML format a little bit.  
 Elements of HTML are separated into tags, which start from `<`.  
@@ -149,7 +149,7 @@ cat data/example.html | tr ">" "\n" | grep pdf
 #  <a href="media/files/activity/nintei/sankou_mondai_kako/2019_kaisetsu_r.pdf"
 ```
 
-## 3. Format links
+### 3. Format links
 
 We got links to PDFs. So far, so good!😀  
 

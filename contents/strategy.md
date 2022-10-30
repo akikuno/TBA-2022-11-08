@@ -1,4 +1,4 @@
-# How to solve the problem
+# How to think a problem
 
 ## Set your goal⛳
 
@@ -6,7 +6,9 @@ The first and most important point is to consider what your goal is.
 
 For me, the goal is to summarize lists of all the URLs from [the site](https://www.jsbi.org/activity/nintei/sankou_mondai_kako/).  
 
-The following is my goal.  
+The input is the follwoing HTML.  
+
+<describe>
 
 ### Input: HTML
 
@@ -61,6 +63,11 @@ The following is my goal.
 
 (~~~Omitted 以下略~~~)
 ```
+</describe>
+
+The output is a list of the URLs.
+
+<describe>
 
 ### Output: URLs of the PDFs
 
@@ -90,6 +97,8 @@ https://www.jsbi.org/media/files/activity/nintei/sankou_mondai_kako/2009_H21_kai
 https://www.jsbi.org/media/files/activity/nintei/sankou_mondai_kako/2008_H20_mondai_kaitou.pdf
 https://www.jsbi.org/media/files/activity/nintei/sankou_mondai_kako/2007_H19_mondai_kaitou.pdf
 ```
+
+</describe>
 
 After getting the list, you can download all files using `for loop`, `while loop`, or `xargs`, whichever you want.
 

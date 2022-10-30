@@ -9,6 +9,7 @@ For me, the goal is to summarize lists of all the URLs from [the site](https://w
 The input is the follwoing HTML.  
 
 <details>
+<summary>Details</summary>
 
 ### Input: HTML
 
@@ -68,6 +69,7 @@ The input is the follwoing HTML.
 The output is a list of the URLs.
 
 <details>
+<summary>Details</summary>
 
 ### Output: URLs of the PDFs
 

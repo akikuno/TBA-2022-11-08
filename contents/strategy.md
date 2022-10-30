@@ -1,6 +1,6 @@
 # How to solve the problem
 
-## Focus on your goal⛳
+## Set your goal⛳
 
 The first and most important point is to consider what your goal is.
 

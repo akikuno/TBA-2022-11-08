@@ -179,7 +179,7 @@ cat data/example.html | tr ">" "\n" | grep pdf | cut -d '"' -f 2
 # media/files/activity/nintei/sankou_mondai_kako/2019_kaisetsu_r.pdf
 ```
 
-Lastly, add `https://www.jsbi.org/` at the beginning using `sed`.
+Lastly, add `https://www.jsbi.org/` to make a complete URL at the beginning using `sed`.
 
 ```bash
 cat data/example.html | tr ">" "\n" | grep pdf | cut -d '"' -f 2 | sed "s|^|https://www.jsbi.org/|"
@@ -187,4 +187,4 @@ cat data/example.html | tr ">" "\n" | grep pdf | cut -d '"' -f 2 | sed "s|^|http
 # https://www.jsbi.org/media/files/activity/nintei/sankou_mondai_kako/2019_kaisetsu_r.pdf
 ```
 
-Finally, you get the links to PDFs. Hooray!🎉
+Finally, you get the complete URLs to PDFs. Hooray!🎉

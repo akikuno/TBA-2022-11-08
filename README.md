@@ -17,7 +17,7 @@ You open [the site](https://www.jsbi.org/activity/nintei/sankou_mondai_kako/) wi
 
 </samp>
 
-# How to solve the problem
+# How to tackle the problem
 
 Have a look at [strategy.md](https://github.com/akikuno/TBA-20221108/blob/main/contents/strategy.md)👀
 

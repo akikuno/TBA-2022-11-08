@@ -23,7 +23,7 @@ Have a look at [strategy.md](https://github.com/akikuno/TBA-20221108/blob/main/c
 
 # Hands-on material
 
-https://colab.research.google.com/drive/1MXc-1M90WgUC6qrTKnB9ykdCCgfZglEL?usp=sharing
+Open the [Google Colab](https://colab.research.google.com/drive/1MXc-1M90WgUC6qrTKnB9ykdCCgfZglEL?usp=sharing) to start hands-on.
 
 # Learning resources
 

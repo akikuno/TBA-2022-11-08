@@ -190,7 +190,7 @@ cat data/example.html | tr ">" "\n" | grep pdf | cut -d '"' -f 2
 # media/files/activity/nintei/sankou_mondai_kako/2019_kaisetsu_r.pdf
 ```
 
-Lastly, add `https://www.jsbi.org/` to make a complete URL at the beginning using `sed`.
+Lastly, add `https://www.jsbi.org/` at the beginning to make a complete URL using `sed`.
 
 ```bash
 cat data/example.html | tr ">" "\n" | grep pdf | cut -d '"' -f 2 | sed "s|^|https://www.jsbi.org/|"
@@ -198,4 +198,23 @@ cat data/example.html | tr ">" "\n" | grep pdf | cut -d '"' -f 2 | sed "s|^|http
 # https://www.jsbi.org/media/files/activity/nintei/sankou_mondai_kako/2019_kaisetsu_r.pdf
 ```
 
-Finally, you get the complete URLs to PDFs. Hooray!🎉
+Finally, you get the complete URLs to PDFs.
+
+Then you can download PDFs using `xargs` and `wget`.
+
+```bash
+cat data/example.html | tr ">" "\n" | grep pdf | cut -d '"' -f 2 | sed "s|^|https://www.jsbi.org/|" | xargs wget
+```
+
+FYI, if you are not uncomfortable using `xargs`, you can use `while`.
+
+```bash
+cat data/example.html | tr ">" "\n" | grep pdf | cut -d '"' -f 2 | sed "s|^|https://www.jsbi.org/|" |
+    while read url; do
+        echo "$url" is now downloading...
+        wget -q "$url"
+    done
+```
+
+
+This is it. Hooray!🎉

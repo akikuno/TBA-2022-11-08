@@ -54,4 +54,4 @@ You will learn the following commands you need today's hands-on.
 
 #### 3. [HTML](https://github.com/akikuno/TBA-20221108/blob/main/contents/035-html.md)
 
-You will learn about the basics of HTML structure.
+You will learn about the basics of HTML structure related to Unix commands.

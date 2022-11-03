@@ -17,10 +17,6 @@ You open [the site](https://www.jsbi.org/activity/nintei/sankou_mondai_kako/) wi
 
 </samp>
 
-# How to tackle the problem
-
-Have a look at [strategy.md](https://github.com/akikuno/TBA-20221108/blob/main/contents/strategy.md)👀
-
 # Hands-on material
 
 Open the [Google Colab](https://colab.research.google.com/drive/1MXc-1M90WgUC6qrTKnB9ykdCCgfZglEL?usp=sharing) to start hands-on.
@@ -29,7 +25,12 @@ Open the [Google Colab](https://colab.research.google.com/drive/1MXc-1M90WgUC6qr
 
 The following contents are supplementary teaching materials.
 
-## [Shell 101](https://github.com/akikuno/TBA-20221108/blob/main/contents/015-shellscript.md)
+## How to tackle the problem
+
+Have a look at [strategy.md](https://github.com/akikuno/TBA-20221108/blob/main/contents/strategy.md)👀
+
+## Quick guides
+### 1. [Shell 101](https://github.com/akikuno/TBA-20221108/blob/main/contents/015-shellscript.md)
 
 You will learn about essential shell grammar.
 
@@ -37,7 +38,7 @@ You will learn about essential shell grammar.
 - pipeline `|`
 - redirect `>`
 
-## [Unix commands](https://github.com/akikuno/TBA-20221108/blob/main/contents/025-unix-commands.md)
+### 2. [Unix commands](https://github.com/akikuno/TBA-20221108/blob/main/contents/025-unix-commands.md)
 
 You will learn the following commands you need today's hands-on.
 
@@ -51,6 +52,6 @@ You will learn the following commands you need today's hands-on.
 - `sed`
 - `xargs`
 
-## [HTML](https://github.com/akikuno/TBA-20221108/blob/main/contents/035-html.md)
+### 3. [HTML](https://github.com/akikuno/TBA-20221108/blob/main/contents/035-html.md)
 
 You will learn about the basics of HTML structure.

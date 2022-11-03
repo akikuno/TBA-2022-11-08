@@ -37,43 +37,46 @@ The following two HTMLs are the exactly same.
 
 ```html
 # data/tba1.html
-<p> This is TBA </p> <p> This is Tsukuba Bioinfo Assembly </p>
+<p> Hello TBA! </p> <p> Hello Tsukuba Bioinfo Assembly! </p>
 ```
 
 ```html
 # data/tba2.html
 <p>
-    This is TBA
+    Hello TBA!
 </p>
 
 <p>
-    This is Tsukuba Bioinfo Assembry
+    Hello Tsukuba Bioinfo Assembry!
 </p>
-
 ```
 
 In contrast, the following commands return different outputs.
 
 ```bash
-grep 'TBA' data/tba1.html
+grep 'Hello' data/tba1.html
 # <p> This is TBA </p> <p> This is Tsukuba Bioinfo Assembly </p>
 ```
 
 ```bash
-grep 'TBA' data/tba2.html
-#  This is TBA
+grep 'Hello' data/tba2.html
+#  Hello TBA!
+#  Hello Tsukuba Bioinfo Assembry!
 ```
 
-**To parse HTML, transform `>` to `\n`.**  
+❗ **Transform `<` to `\n` to parse HTML.** ❗
+
 `\n` means a new line.
 
 ```bash
-cat data/tba1.html | tr ">" "\n" | grep 'TBA'
-#  This is TBA </p
+cat data/tba1.html | tr "<" "\n" | grep 'Hello'
+#  p> Hello TBA!
+#  p> Hello Tsukuba Bioinfo Assembly!
 ```
 
 ```bash
-cat data/tba2.html | tr ">" "\n" | grep 'TBA'
-#  This is TBA
+cat data/tba2.html | tr "<" "\n" | grep 'Hello'
+#  Hello TBA!
+#  Hello Tsukuba Bioinfo Assembry!
 ```
 

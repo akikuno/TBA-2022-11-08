@@ -1,10 +1,10 @@
 # Handy web scraping with Shell Script🍰
 
-# Aim
+# Aim⛳
 
 **Learn basic Unix commands through web scraping**
 
-# Story
+# Story📖
 <samp>
 
 One day, you made up your mind to take the examination of The Japanese Society for Bioinformatics (JSBi).
@@ -17,17 +17,17 @@ You open [the site](https://www.jsbi.org/activity/nintei/sankou_mondai_kako/) wi
 
 </samp>
 
-# Hands-on material
+# Hands-on material🎹
 
 Open the [Google Colab](https://colab.research.google.com/drive/1MXc-1M90WgUC6qrTKnB9ykdCCgfZglEL?usp=sharing) to start hands-on.
 
-# Learning resources
+# Learning resources📚
 
 The following contents are supplementary teaching materials.
 
 ## How to tackle the problem
 
-Have a look at [strategy.md](https://github.com/akikuno/TBA-20221108/blob/main/contents/strategy.md)👀
+Have a look at [strategy.md](https://github.com/akikuno/TBA-20221108/blob/main/contents/strategy.md)
 
 ## Quick guides
 ### 1. [Shell 101](https://github.com/akikuno/TBA-20221108/blob/main/contents/015-shellscript.md)

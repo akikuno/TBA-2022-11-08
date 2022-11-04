@@ -18,6 +18,7 @@ Command that lists directory contents of files and directories.
 
 ```bash
 ls
+# LICENSE  README.md  contents  data
 ```
 
 ## `cat`
@@ -25,15 +26,23 @@ ls
 Command to reads data from the file and gives their content as output.
 
 ```bash
-cat [file...]
+cat data/tba1.html
+# <!-- data/tba1.html -->
+# <p> Hello TBA! </p> <p> Hello Tsukuba Bioinfo Assembly! </p>
 ```
 
 ## `head`
 
-Commands to print the top N number (default is top 10) of data of the given input.
+Commands to print the top n number (default is top 10) of data of the given input.
+
+- `-n`: to specify the number of lines to print (default: 10).
+
 
 ```bash
-head [file]
+head -n 3 data/output_lists.txt
+# https://www.jsbi.org/media/files/activity/nintei/sankou_mondai_kako/2019_mondai.pdf
+# https://www.jsbi.org/media/files/activity/nintei/sankou_mondai_kako/2019_kaisetsu_r.pdf
+# https://www.jsbi.org/media/files/activity/nintei/sankou_mondai_kako/2018_H30_mondai.pdf
 ```
 
 ## `wget` or `curl`
@@ -43,8 +52,8 @@ Commands that can download contents from FTP, HTTP(S).
 
 ```bash
 wget -q -O - https://example.com/
-# -q means `quiet`
-# -O - means return results to standard output
+# `-q` means `quiet`
+# `-O -` means return results to standard output
 
 # The above command is equivalent to the following:
 curl https://example.com/
@@ -56,9 +65,14 @@ Command for translating or deleting characters
 
 ```bash
 echo "AAACCC" | tr "A" "T"
+#=> TTTCCC
+```
 
-# reverse complement
+FYI: Reverse complement using `tr` and `rev`.
+
+```bash
 echo "AAACCC" | tr "ACGT" "TGCA" | rev
+#=> GGGTTT
 ```
 
 ## `grep`
@@ -76,6 +90,9 @@ printf "Suzuki\nSato\nYamada\n" | grep "a"
 ## `cut`
 
 Command for cutting out the sections from each line of files
+
+- `-d`: to specify a delimiter (default: TAB `\t`).
+- `-f`: to select a specified field.
 
 ```bash
 echo "chr1,100,1000,tba" | cut -d, -f 1

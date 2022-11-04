@@ -36,12 +36,12 @@ Since **one line represents one content in (almost all) Unix commands**, you nee
 The following two HTMLs are the exactly same.
 
 ```html
-# data/tba1.html
+<!-- data/tba1.html -->
 <p> Hello TBA! </p> <p> Hello Tsukuba Bioinfo Assembly! </p>
 ```
 
 ```html
-# data/tba2.html
+<!-- data/tba2.html -->
 <p>
     Hello TBA!
 </p>

@@ -171,9 +171,9 @@ However, this output includes unrelated characters such as "2019年度（平成3
   <a href="media/files/activity/nintei/sankou_mondai_kako/2019_kaisetsu_r.pdf"
 ```
 
-You can delete these characters one by one but wait for a minute.
+You can delete these characters one by one but wait a minute⏲️
 
-Let us focus on separators.
+Let's focus on separators.
 
 If you separate the text by `"`, you can extract only the links by selecting Field 2.
 

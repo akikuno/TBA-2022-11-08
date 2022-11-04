@@ -51,17 +51,16 @@ The following two HTMLs are the exactly same.
 </p>
 ```
 
-In contrast, the following commands return different outputs.
+In contrast, if you try to count the number of lines that matches 'Hello', the following two commands returns different results.
 
 ```bash
-grep 'Hello' data/tba1.html
-# <p> This is TBA </p> <p> This is Tsukuba Bioinfo Assembly </p>
+grep -c 'Hello' data/tba1.html
+# 1
 ```
 
 ```bash
-grep 'Hello' data/tba2.html
-#  Hello TBA!
-#  Hello Tsukuba Bioinfo Assembry!
+grep -c 'Hello' data/tba2.html
+# 2
 ```
 
 ❗ **Transform `<` to `\n` to parse HTML.** ❗
@@ -69,14 +68,12 @@ grep 'Hello' data/tba2.html
 `\n` means a new line.
 
 ```bash
-cat data/tba1.html | tr "<" "\n" | grep 'Hello'
-#  p> Hello TBA!
-#  p> Hello Tsukuba Bioinfo Assembly!
+cat data/tba1.html | tr "<" "\n" | grep -c 'Hello'
+# 2
 ```
 
 ```bash
-cat data/tba2.html | tr "<" "\n" | grep 'Hello'
-#  Hello TBA!
-#  Hello Tsukuba Bioinfo Assembry!
+cat data/tba2.html | tr "<" "\n" | grep -c 'Hello'
+# 2
 ```
 
